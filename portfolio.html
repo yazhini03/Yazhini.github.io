@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white; 
+            color: black;
+        }
+
+        header {
+            background-color: #5680E9; 
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            border-bottom: 2px solid black; 
+            padding-bottom: 10px;
+            color: black; 
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Project and Blog Post Styles */
+        .project {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #84CEEB; 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5AB9EA; 
+        }
+
+
+        /* Contact Section */
+        #contact p {
+            font-size: 1.1em;
+        }
+
+        #contact a {
+            color: #5680E9;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #8860D0; 
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>ABOUT ME</h2>
+            <p>Hello! I'm Yazhini, a young brain with a passion for web development. I specialize in C,Python,Java,Html,Css,Javascript,Mysql,Django and enjoy working on projects that involve Html,Css,Js,Mysql,Django.</p>
+        </section>
+
+        <section id="projects">
+            <h2>PROJECTS</h2>
+            <div class="project">
+                <h3>Train Ticket Management System:</h3>
+                <ul class="spaced-list">
+                    <li>A system which enables user to login, Signup, Book Tickets, View available Trains and Generate Tickets. The admin has the rights to update ticket details.
+                       
+                        
+                    </li>
+                    
+                    <li>
+                        Developed using Python(Tkinter) as frontend and MySQL for database.
+                    </li>
+                
+                </ul>
+                
+            </div>
+            <div class="project">
+                <h3>	Cricket Scorer website:</h3>
+                <ul class="spaced-list">
+                    <li>Cricket Scorer website which enables players to, view their scores and run rate, update the match scores, and register a team.
+                       
+                        
+                    <li>
+                        Developed using  HTML , CSS and Django.
+                    </li>
+                
+                </ul>
+            </div>
+          
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Life at Kumaraguru College of Technology</h3>
+                <p id="post1">"Arise, awake and stop not till the goal is reached." - Swami Vivekananda 
+                    <br><br>
+                    The first day at KCT was a mix of excitement and nervousness. Walking through the grand entrance, I was greeted by the lush green campus, modern buildings, and the buzzing energy of fellow students.
+                    <br><br>
+                    KCT's curriculum is a perfect balance of theory and practical knowledge. The state-of-the-art laboratories and well-stocked library became my second home as I delved into my engineering subjects.
+                    <br><br>
+                    The professors at KCT are not just teachers but mentors. Their approachability and willingness to help made learning a fulfilling experience. They encouraged us to think critically and innovate.
+
+                    <br><br>
+                    Being part of the Rotaract Club and various social initiatives, I realized the importance of giving back to society. These activities instilled a sense of responsibility and community spirit in me.
+
+                    <br><br>
+                    Like any journey, my time at KCT had its challenges. Balancing academics, extracurriculars, and personal life was tough at times. However, the supportive environment helped me overcome these hurdles.
+ 
+                    #kumaraguruCollegeofTechnology
+                    #informationtechnology hashtag #lifeatkct
+                    #gratitude</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:yazhini2k4@gmail.com">yazhini2k4@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yazhini-m" target="_blank">yazhini-m</a></p>
+            <p>GitHub: <a href="https://github.com/yazhini03" target="_blank">yazhini03</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yazhini. All rights reserved.</p>
+    </footer>
+</body>
+</html>
